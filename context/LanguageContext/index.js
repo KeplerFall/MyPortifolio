@@ -1,6 +1,7 @@
 import { createContext, useState } from "react";
 import pt from "../../utils/pt.json"
 import en from "../../utils/en.json"
+import de from "../../utils/de.json"
 
 export const LanguageContext = createContext({
 
@@ -17,6 +18,9 @@ export const LanguageProvider = ({ children }) =>{
             break;
             case 'en':
                 file = en
+            break;
+            case 'de':
+                file = de
             break;
         }
 

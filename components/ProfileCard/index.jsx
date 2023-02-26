@@ -17,7 +17,8 @@ const ProfileCard = () =>{
 
 
     return(
-        <div className="w-[100%] h-[100vh] bg-[#2c2c2c] flex flex-col items-center">
+        <div salvo="bg-[#2c2c2c]" className="w-[100%] h-[100vh] bg-[url('https://uploads.spiritfanfiction.com/historias/capas/201811/green-14951564-231120181440.gif')] bg-cover bg-opacity-50 flex flex-col items-center">
+
             <img src={myself.src} alt="" className='w-[auto] h-[25%] mt-[25%] rounded-lg border-4 border-t-[#2bcdee] border-r-[#2bcdee] border-b-[#1594ad] border-l-[#1594ad]'/>
             <span className='font-sans text-white font-bold text-3xl mt-6'>Képler Miranda Pereira</span>
             <LanguageButton></LanguageButton>
@@ -25,7 +26,7 @@ const ProfileCard = () =>{
             <span className='text-white font-semibold text-2xl mt-8'>{t("Desenvolvedor")}</span>
             <span className='text-white font-semibold text-1xl mt-2'>Front/Back End</span>
             <div className='flex flex-row w-[80%] justify-evenly mt-6'>
-                <a href="https://www.linkedin.com/in/képler-miranda-pereira-51382719a/" target='_blank'>
+                <a href="https://www.linkedin.com/in/kepler-miranda-pereira-51382719a/" target='_blank'>
                     <svg className={defaultStyle.icos} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
                 <a href="https://api.whatsapp.com/send/?phone=5516994081128&text&type=phone_number&app_absent=0" target='_blank'>

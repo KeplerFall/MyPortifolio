@@ -1,0 +1,21 @@
+{
+    "myProjects": [
+        {
+            "title": "Project 01",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/200x200/8303.png",
+            "link": ""
+        },
+
+        {
+            "title": "Project 02",
+            "image": "",
+            "link": ""
+        },
+
+        {
+            "title": "Project 03",
+            "image": "",
+            "link": ""
+        }
+    ]
+}

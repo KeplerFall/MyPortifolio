@@ -1,6 +1,6 @@
 import ProfileCard from "@/components/ProfileCard";
 import AboutMe from "@/components/AboutMe"
-import MySkills from "@/components/MySkills"
+import MyExperiences from "@/components/MyExperiences"
 import MyProjects from "../components/MyProjects"
 
 
@@ -13,7 +13,7 @@ export default function Home() {
           <ProfileCard></ProfileCard>
           <AboutMe></AboutMe>
         </div>
-        <MySkills></MySkills>
+        <MyExperiences></MyExperiences>
         <MyProjects></MyProjects>
       </div>
     </>

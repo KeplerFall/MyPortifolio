@@ -18,6 +18,7 @@ const LanguageButton = ()=>{
             <select className="px-4 py-2 rounded-lg focus:border-none mx-2 focus:ring-blue-500" ref={selector} name="" id="" onChange={()=>{changeLanguage(selector.current.value)}}>
                 <option className=" hover:bg-[#2bcdee]" value="pt"> Pt-BR </option>
                 <option className=" hover:bg-[#2bcdee]" value="en"> En-US </option>
+                <option className=" hover:bg-[#2bcdee]" value="de"> De-DE </option>
             </select>
         </div>
 
